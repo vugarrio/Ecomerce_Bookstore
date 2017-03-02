@@ -43,8 +43,9 @@ public class CheckoutController {
 	private ShippingAddress shippingAddress = new ShippingAddress();
 	private BillingAddress billingAddress = new BillingAddress();
 	private Payment payment = new Payment();
+	
 
-	@Autowired
+	@Autowired  
 	private JavaMailSender mailSender;
 	
 	@Autowired
